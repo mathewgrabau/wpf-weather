@@ -23,9 +23,9 @@ namespace WeatherApp.Models
 
     public class TemperatureReading : INotifyPropertyChanged
     {
-        int _value;
+        float _value;
 
-        public int Value
+        public float Value
         {
             get => _value;
 
